@@ -1,0 +1,15 @@
+# Number of Atoms
+5
+
+# AtomNumber  Symbol mass  x      y      z      vx     vy     vz
+1             H      1     0.0    0.0    0.0    0.1    0.2    0.3
+5             O      1     0.5    0.0    0.0    0.0    0.1    0.0
+1             H      1     0.0    0.5    0.0    0.2    0.0    0.2
+6             C      1     0.5    0.5    0.0    0.1    0.1    0.1
+7             N      1     0.8    0.8    0.0    0.0    0.0    0.0
+
+# Bonds (AtomID1  AtomID2  BondType)
+0 1 1
+1 2 2
+3 4 1
+
