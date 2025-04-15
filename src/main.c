@@ -111,7 +111,7 @@ int main(int argc, char* argv[]) {
     Button my_button = {100, 100, 100.0f, 50.0f, {1.0f, 1.0f, 1.0f}, false, false, 0, 0};
     init_button(&my_button);
     TextLabel* label  = init_TextLabel(100, 250, 100, 50);
-    create_OpenGL_text_label(label, "abcdefghi", "/home/oliver/.local/share/fonts/Arial.ttf", (SDL_Color){250,250,250,255}, 20);
+    create_OpenGL_text_label(label, "abcdefghi", "./fonts/PTSans-Regular.ttf", (SDL_Color){250,250,250,255}, 20);
 
     int mouse_x, mouse_y;
 
